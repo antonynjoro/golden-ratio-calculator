@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import GoogleAnalytics from './components/GoogleAnalytics'
-import BuyMeACoffee from './components/BuyMeACoffee'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <GoogleAnalytics />
-        <BuyMeACoffee />
       </head>
       <body className="h-screen bg-zinc-50">{children}</body>
     </html>
